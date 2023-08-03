@@ -61,6 +61,10 @@ html, body {
     color: #fff;
 }
 
+.nav-list__link:hover {
+    color: #fff;
+}
+
 /* user */
 .user {
     display: flex;
