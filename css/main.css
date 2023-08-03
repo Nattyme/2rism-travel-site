@@ -55,11 +55,8 @@ html, body {
 
 .nav-list__link {
     color: rgb(255, 255, 255, 0.7);
+    transition: color 0.2s ease-in;
 } 
-
-.nav-list__link--active {
-    color: #fff;
-}
 
 .nav-list__link:hover {
     color: #fff;
@@ -75,6 +72,7 @@ html, body {
 .user__content {
     font-size: 14px;
     line-height: 1.5;
+    text-align: right;
     color: rgb(255, 255, 255, 0.5);
 }
 
@@ -149,4 +147,15 @@ html, body {
     position: relative;
     top: -3px;
     background-color: rgb(123, 97, 255, 0.7);
+}
+
+/* Form */
+.form {
+    max-width: 1140px;
+    height: 88px;
+    padding: 14px 8px;
+
+    background-color: #fff;
+    border-radius: 12px;
+    color: #000;
 }
