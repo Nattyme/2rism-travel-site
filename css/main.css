@@ -151,11 +151,29 @@ html, body {
 
 /* Form */
 .form {
+    display: flex;
     max-width: 1140px;
     height: 88px;
-    padding: 14px 8px;
+    padding: 8px 8px;
 
     background-color: #fff;
     border-radius: 12px;
     color: #000;
+}
+
+.button-search {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    
+    border-radius: 12px;
+    background: #7B61FF;
+
+    font-size: 0;
+}
+
+.form__input {
+    display: inline-block;
+    padding-left: 56px;
+    background-color: #7b61ff58;
 }
