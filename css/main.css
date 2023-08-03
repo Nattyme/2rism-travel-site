@@ -123,6 +123,7 @@ html, body {
 }
 
 .button {
+    top: 0;
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -136,4 +137,12 @@ html, body {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
+
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    position: relative;
+    top: -3px;
+    background-color: rgb(123, 97, 255, 0.7);
 }
