@@ -17,6 +17,7 @@ html, body {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -144,14 +145,14 @@ html, body {
 
 .button:hover {
     position: relative;
-    top: -3px;
+    top: -1px;
     background-color: rgb(123, 97, 255, 0.7);
 }
 
 /* Form */
 .form {
     display: flex;
-    max-width: 1140px;
+    width: 1140px;
     height: 88px;
     padding: 8px 8px;
 
@@ -160,23 +161,14 @@ html, body {
     color: #000;
 }
 
-.button-search {
-    width: 60px;
-    height: 60px;
-    padding: 18px;
-    
-    border-radius: 12px;
-    background: #7B61FF;
-
-    font-size: 0;
-}
-
 .form__input {
-    display: inline-block;
-    line-height: 1;
     position: relative;
+
+    flex-grow: 1;
+
     padding: 16px 20px 16px 56px;
-    background-color: #7b61ff58;
+    /*background-color: #7b61ff58; */
+    line-height: 1;
 }
 
 .form__input::before {
@@ -194,6 +186,19 @@ html, body {
     background-image: url(./../img/icons/map.svg);
 }
 
+.form__input--activity::before {
+    background-image: url(./../img/icons/activity.svg);
+}
+
+.form__input--when::before{
+    background-image: url(./../img/icons/when.svg);
+}
+
+
+.form__input--guests::before{
+    background-image: url(./../img/icons/guests.svg);
+}
+
 .label {
     font-size: 14px;
     font-weight: 300;
@@ -208,6 +213,17 @@ html, body {
     color: #161414;
 }
 
-.custom-select-container {
+/* .custom-select-container {
     width: 224px;
+} */
+
+.button-search {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    
+    align-self: center;
+    border-radius: 12px;
+    background: #7B61FF;
+    font-size: 0;
 }
