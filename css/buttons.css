@@ -1,0 +1,36 @@
+.button--huge {
+    top: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    padding: 24px;
+    height: 72px;
+
+    background-color: #7B61FF;
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    position: relative;
+    top: -1px;
+    background-color: rgb(123, 97, 255, 0.7);
+}
+
+
+.button--search {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    
+    align-self: center;
+    border-radius: 12px;
+    background: #7B61FF;
+    font-size: 0;
+}
