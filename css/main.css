@@ -169,13 +169,29 @@ html, body {
     flex-direction: column;
     padding: 15px 20px 16px 56px;
     background-color: rgba(188, 3, 188, 0.16);
+
+    background-position: 16px 24px; 
+    background-repeat: no-repeat;
 }
 
 .form__input--location {
     width: 300px;
-    background-image: url('./../img/icons/map.svg');
-    background-position: 16px 24px; 
-    background-repeat: no-repeat;    
+    background-image: url('./../img/icons/map.svg');   
+}
+
+.form__input--activity {
+    width: 255px;
+    background-image: url('./../img/icons/activity.svg');   
+}
+
+.form__input--date {
+    width: 255px;
+    background-image: url('./../img/icons/when.svg');   
+}
+
+.form__input--guests {
+    width: 255px;
+    background-image: url('./../img/icons/guests.svg');   
 }
 
 .form__label {

@@ -48,7 +48,33 @@
 
                 <div class="form__input-wrapper form__input--location">
                     <label for="location" class="form__label">Location</label>
-                    <input type="text" class="form__input" name="location" placeholder="Explore nearby destinations">
+                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                </div>
+
+                <div class="form__input-wrapper form__input--activity">
+                    <label for="activity" class="form__label">Activity</label>
+                    <select name="activity" id="activity" class="form__select">
+                        <option value="all">All Activities</option>
+                        <option value="culture">Culture</option>
+                        <option value="sport">Sport</option>
+                        <option value="extreme">Etreme</option>
+                    </select>
+                </div>
+
+                <div class="form__input-wrapper form__input--date">
+                    <label for="date" class="form__label">When</label>
+                    <input type="date" class="form__input" id="date" placeholder="Choose a Date">
+                </div>
+
+                <div class="form__input-wrapper form__input--guests">
+                    <label for="guests" class="form__label">Guests</label>
+                    <select name="guests" id="guests" class="form__select">
+                        <option value="">1 guest</option>
+                        <option value="">2 guest</option>
+                        <option value="">3 guest</option>
+                        <option value="">4 guest or more</option>
+                    </select>
+                    
                 </div>
                     <!--
                     <label for="location" class="label">Location</label><br>
