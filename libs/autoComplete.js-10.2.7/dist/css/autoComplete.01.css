@@ -4,19 +4,19 @@
 }
 
 .autoComplete_wrapper > input {
-  width: 370px;
-  height: 40px;
-  padding-left: 20px;
+  width: 100%;
+ /* height: 40px; */
+  padding-left: 0;
   font-size: 1rem;
-  color: rgba(123, 123, 123, 1);
+  color: #000;
   border-radius: 8px;
   border: 0;
   outline: none;
-  background-color: #f1f3f4;
+  background-color: #fff;
 }
 
 .autoComplete_wrapper > input::placeholder {
-  color: rgba(123, 123, 123, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
 }
 
@@ -72,7 +72,7 @@
 
 .autoComplete_wrapper > ul > li mark {
   background-color: transparent;
-  color: rgba(255, 122, 122, 1);
+  color: #7B61FF;
   font-weight: bold;
 }
 

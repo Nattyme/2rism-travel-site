@@ -252,7 +252,8 @@ const countryList = [
 ];
 
 const autoCompleteJS = new autoComplete ({
-    placeHolder: 'Company name...',
+    selector: '#location',
+	placeHolder: 'Country name...',
     data: {
         src: countryList,
         cache: true,
@@ -274,5 +275,5 @@ const autoCompleteJS = new autoComplete ({
     resultsList: {
         maxResults: 15,
     },
-    searchEngine: 'strict', //strict
+    searchEngine: 'strict', //strict / loose
 });
