@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import "./buttons.css";
+@import "./../libs/custom-select/custom-select.css";
+@import "./custom-select.css";
 
 html, body {
     font-family: 'Poppins', sans-serif;
