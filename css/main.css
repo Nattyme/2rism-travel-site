@@ -222,6 +222,9 @@ html, body {
     grid-template-columns: repeat(6, 1fr);
 }
 
+.section__cards--hotels {
+    grid-template-columns: repeat(4, 1fr);
+}
 /* Card */
 
 .card {
@@ -236,8 +239,12 @@ html, body {
     height: 100%;
 }
 
-.card img {
+.card__img {
     border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.card__img--hotel {
     margin-bottom: 8px;
 }
 
@@ -245,6 +252,10 @@ html, body {
     color: #161414;
     font-size: 16px;
     font-weight: 500;
+}
+
+.card__title--hotel {
+    margin-right: 12px;
 }
 
 .card__location {
@@ -259,3 +270,24 @@ html, body {
     color: #7B61FF;
 }
 
+.card__location--icon {
+    padding-left: 20px;
+    background-image: url('./../img/icons/map-hotels.svg');
+    background-position: 0 1px; 
+    background-repeat: no-repeat;
+    
+}
+
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
