@@ -191,3 +191,46 @@ html, body {
     color: #000;
 }
 
+/* Main */
+.title-1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #161414;
+}
+
+
+.main {
+    display: grid;
+    gap: 120px;
+    padding: 120px 0;
+}
+
+.section__cards {
+    display: grid;
+    gap: 32px;
+}
+
+.section__cards--popular {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Card */
+
+.card {
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.card__title {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__location {
+    color: #979797;
+    font-size: 13px;
+    font-weight: 400;
+}
+
