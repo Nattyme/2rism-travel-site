@@ -222,8 +222,12 @@ html, body {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.section__cards--hotels {
+.section__cards--4-in-row {
     grid-template-columns: repeat(4, 1fr);
+}
+
+.section__cards--2-in-row {
+    
 }
 /* Card */
 
@@ -303,3 +307,34 @@ html, body {
     align-items: center;
     gap: 2px;
 }
+
+/* Tips */
+
+
+.card {
+}
+.card__link {
+}
+.card__img {
+}
+.card__desc {
+}
+.card__title {
+}
+.card__title--big {
+}
+.card__text {
+}
+.card__footer {
+}
+.card__footer--wide {
+}
+.card__footer-link {
+}
+.card__footer-link--date {
+}
+.card__footer-link--author {
+}
+.card__footer-link--comments {
+}
+
