@@ -458,8 +458,43 @@ html, body {
 .footer__socials-link {
 }
 
+/* Footer nav*/
+
 .footer__nav-wrapper {
+    display: flex;
+    gap: 64px;
 }
+
+
+.footer__nav {
+    display: grid;
+    gap: 20px;
+    
+}
+
+.footer__nav-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__nav-list {
+    display: grid;
+    gap: 20px;
+}
+
+.footer__nav-item {
+}
+
+.footer__nav-link {
+    color: #585858;
+    font-size: 13px;
+}
+
+.footer__nav-link:hover {
+    color: #7B61FF;
+}
+
+/* Subscribe */
 
 .footer__subscribe {
 }
