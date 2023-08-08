@@ -6,6 +6,7 @@
 
 html, body {
     font-family: 'Poppins', sans-serif;
+    color: #161414;
 }
 
 
@@ -380,3 +381,32 @@ html, body {
     background-image: url('./../img/icons/chat.svg');
 }
 
+/* About us */
+.about-us {
+    max-width: 1144px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-us__desc {
+    display: grid;
+    gap: 32px;
+    align-content: center;
+}
+
+.about-us__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about-us__text {
+    font-size: 16px;
+    line-height: 2;
+    color: #5B5B5B;
+    
+}
+
+.about-us__img {
+    border-radius: 24px;
+}
