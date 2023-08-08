@@ -418,12 +418,17 @@ html, body {
 
 /* Footer */
 .footer {
+    padding: 120px 0;
+    background-color: #F9F9F9;;
 }
 
 .container {
 }
 
 .footer-row {
+    display: grid;
+    gap: 64px;
+    grid-template-columns: repeat(3, auto);
 }
 
 .footer__copyright {
