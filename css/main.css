@@ -498,3 +498,32 @@ html, body {
 
 .footer__subscribe {
 }
+
+.footer__subscribe {
+}
+.footer__subscribe-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe__input-wrapper {
+    padding: 16px;
+}
+
+.subscribe__input-img {
+    margin-right: 16px;
+}
+
+
+.subscribe__btn-wrapper {
+}
+.button {
+}
+.button--subscribe {
+}
