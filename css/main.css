@@ -522,10 +522,11 @@ html, body {
     margin-right: 16px;
 }
 
-
-.subscribe__btn-wrapper {
+.subscribe__input-wrapper {
 }
 
-.button {
+.subscribe__input {
 }
 
+.subscribe__label {
+}
