@@ -500,7 +500,9 @@ html, body {
 }
 
 .footer__subscribe {
+    max-width: 388px;
 }
+
 .footer__subscribe-title {
     font-size: 18px;
     font-weight: 500;
@@ -508,8 +510,8 @@ html, body {
 }
 
 .subscribe {
-    display: flex;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .subscribe__input-wrapper {
@@ -523,7 +525,7 @@ html, body {
 
 .subscribe__btn-wrapper {
 }
+
 .button {
 }
-.button--subscribe {
-}
+

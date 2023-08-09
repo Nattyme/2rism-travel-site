@@ -1,3 +1,9 @@
+.button {
+    background-color: #7B61FF;
+    border-radius: 12px;
+    color: #fff;
+}
+
 .button--huge {
     top: 0;
     display: flex;
@@ -6,9 +12,6 @@
 
     padding: 24px;
     height: 72px;
-
-    background-color: #7B61FF;
-    border-radius: 12px;
 
     font-size: 18px;
     font-weight: 600;
@@ -34,6 +37,13 @@
     background: #7B61FF;
     font-size: 0;
 }
+
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+}
+
 
 /* Button-more */
 
