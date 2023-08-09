@@ -497,16 +497,13 @@ html, body {
 /* Subscribe */
 
 .footer__subscribe {
-}
-
-.footer__subscribe {
     max-width: 388px;
 }
 
 .footer__subscribe-title {
+    margin-bottom: 20px;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 20px;
 }
 
 .subscribe {
@@ -515,17 +512,23 @@ html, body {
 }
 
 .subscribe__input-wrapper {
-    padding: 16px;
-}
-
-.subscribe__input-img {
-    margin-right: 16px;
+  
 }
 
 .subscribe__input-wrapper {
 }
 
 .subscribe__input {
+    padding-left: 56px;
+    
+    width: 300px;
+    height: 72px;
+    background-color: #fff;
+    background-repeat: 12px;
+    
+    background-image: url('./../img/icons/email.svg');
+    background-repeat: no-repeat;
+    background-position: 18px 27px;
 }
 
 .subscribe__label {
