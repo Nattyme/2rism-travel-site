@@ -4,6 +4,12 @@
     color: #fff;
 }
 
+.button:hover {
+    position: relative;
+    background-color: rgb(123, 97, 255, 0.7);
+}
+
+
 .button--huge {
     top: 0;
     display: flex;
@@ -20,11 +26,6 @@
     transition: all 0.2s ease-in;
 }
 
-.button:hover {
-    position: relative;
-    top: -1px;
-    background-color: rgb(123, 97, 255, 0.7);
-}
 
 
 .button--search {
