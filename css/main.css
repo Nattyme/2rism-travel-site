@@ -9,6 +9,10 @@ html, body {
     color: #161414;
 }
 
+.none {
+    display: none;
+}
+
 
 .container {
     margin: 0 auto;
@@ -346,10 +350,6 @@ html, body {
     line-height: 2; 
 }
 
-.card__footer {
-}
-
-
 .card__footer--wide {
     margin-top: auto;
 }
@@ -437,9 +437,6 @@ html, body {
     gap: 16px;
 }
 
-.footer__logo {
-}
-
 .footer__text {
     margin-bottom: 16px;
     font-size: 13px;
@@ -452,11 +449,6 @@ html, body {
     align-items: center;
 }
 
-.footer__socials-item {
-}
-
-.footer__socials-link {
-}
 
 /* Footer nav*/
 
@@ -482,8 +474,6 @@ html, body {
     gap: 20px;
 }
 
-.footer__nav-item {
-}
 
 .footer__nav-link {
     color: #585858;
@@ -556,8 +546,3 @@ html, body {
 .subscribe__label--top {
     top: 16px;
 }
-
-
-
-/*     top: 16px;
-    left: 56px; */
