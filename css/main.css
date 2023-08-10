@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import "./buttons.css";
+@import  "./nav-icon.css";
 @import "./../libs/custom-select/custom-select.css";
 @import "./custom-select.css";
 
@@ -8,11 +9,6 @@ html, body {
     font-family: 'Poppins', sans-serif;
     color: #161414;
 }
-
-.none {
-    display: none;
-}
-
 
 .container {
     margin: 0 auto;
@@ -25,8 +21,6 @@ html, body {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-
 }
 
 /* Header */
@@ -545,4 +539,8 @@ html, body {
 
 .subscribe__label--top {
     top: 16px;
+}
+
+.none {
+    display: none;
 }
