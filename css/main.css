@@ -553,9 +553,8 @@ html, body {
     top: 16px;
 }
 
-.subscribe__input:invalid ~ .subscribe__label {
+.subscribe__label--top {
     top: 16px;
-    color:#F00;
 }
 
 
