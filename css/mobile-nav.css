@@ -2,50 +2,58 @@
     overflow-y: hidden;
 }
 
-.mobile-nav-fade {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 99;
-
-
-}
-
 .mobile-nav {
     position: fixed;
     top: 0;
-    right: 0%;
-    display: flex;
-    align-items: flex-start;
-    padding: 40px;
-    flex-direction: column;
-
+    right: -100%;
     width: 320px;
     height: 100%;
-    z-index: 98;
-    background-color: rgb(19 29 34/70%);
+    z-index: 99;
 
-    opacity: 0;
-    transition: opacity 0.2s ease-in;
-    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 40px;
+
+    background-color: #141022;
+    transition: all 0.4s ease-in;
+
 }
 
-.fade-open {
-    pointer-events: all;
-    opacity: 1;
+.mobile-nav--open {
+    right: 0;
 }
 
 .mobile-nav a {
     color: #fff;
 }
 
-.mobile-nav a:hover {
+.mobile-nav a:hover, .mobile-nav a.active {
     color: #7B61FF;
 }
 
-.mobile-nav ul {
+.mobile-nav__list {
     display: grid;
+    gap: 20px;
     text-transform: capitalize;
+}
+
+.mobile-nav-fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19 29 34/70%);
+    z-index: 98;
+    
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    pointer-events: none;
+}
+
+.mobile-nav-fade--open {
+    opacity: 1;
+    pointer-events: all;
 }
