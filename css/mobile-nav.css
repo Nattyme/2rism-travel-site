@@ -5,7 +5,7 @@
 .mobile-nav {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: -320%;
     width: 320px;
     height: 100%;
     z-index: 99;
