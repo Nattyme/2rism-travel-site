@@ -2,19 +2,50 @@
     overflow-y: hidden;
 }
 
+.mobile-nav-fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+
+
+}
+
 .mobile-nav {
     position: fixed;
     top: 0;
     right: 0%;
-    width: 320px;
-    height: 100%;
-    z-index: 99;
-
     display: flex;
+    align-items: flex-start;
+    padding: 40px;
     flex-direction: column;
 
-    align-items: flex-start;
-    padding: 40px 40px;
-    background-color: #141d22;
-    transition: all 0.2s ease-in;
+    width: 320px;
+    height: 100%;
+    z-index: 98;
+    background-color: rgb(19 29 34/70%);
+
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    pointer-events: none;
+}
+
+.fade-open {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.mobile-nav a {
+    color: #fff;
+}
+
+.mobile-nav a:hover {
+    color: #7B61FF;
+}
+
+.mobile-nav ul {
+    display: grid;
+    text-transform: capitalize;
 }
