@@ -220,7 +220,7 @@ html, body {
     gap: 32px;
 }
 
-.section__cards--popular {
+.section__cards--6-in-row {
     grid-template-columns: repeat(6, 1fr);
 }
 
@@ -235,8 +235,10 @@ html, body {
 /* Card */
 
 .card {
+    width: 100%;
     position: relative;
     transition: all 0.2s ease-in;
+    object-fit: cover;
 }
 
 
