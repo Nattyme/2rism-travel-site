@@ -19,6 +19,10 @@
     .form__input--activity {
         width: 180px;
     }
+
+    .autoComplete_wrapper > input {
+        width: auto !important;
+    }
 }
 
 
@@ -43,7 +47,7 @@
         display: none;
     }
 
-    .nav-user{
+    .nav-user {
         display: none;
     }
 
@@ -52,10 +56,18 @@
     }
 }
 
-@media (max-width: 1040) {
+@media (max-width: 1040px) {
     .form {
         width: auto;
         height: auto;
         flex-direction: column;
+    }
+
+    .form__input-wrapper {
+        width: 100%;
+    }
+
+    .button--search {
+        width: 100%;
     }
 }

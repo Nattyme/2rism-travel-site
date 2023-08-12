@@ -13,15 +13,15 @@ html, body {
 
 .container {
     margin: 0 auto;
-    padding: 0 32px;
     max-width: 1440px;
+    padding: 0 32px;
 }
 
 .container--header {
     display: flex;
-    height: 100%;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
 
 /* Header */
@@ -29,6 +29,7 @@ html, body {
     height: 800px;
     padding-top: 31px;
     padding-bottom: 100px;
+    background-color: #000;
     background-image: url(./../img/header-bg.jpg);
     background-position: center center; 
     background-size: cover;
