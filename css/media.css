@@ -63,7 +63,8 @@
         margin-bottom: 34px;
     }
 
-    .title-1 {
+    .title-1,
+    .about-us__title {
         font-size: 26px;
     }
 
@@ -80,6 +81,10 @@
     }
     .card__footer {
         column-gap: 10px;
+    }
+
+    .about-us__text {
+        font-size: 14px;
     }
 }
 
@@ -105,6 +110,10 @@
     .section__cards--2-in-row {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .about-us {
+        gap: 24px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -118,6 +127,14 @@
 
     .card--wide {
         grid-template-columns: 1fr;
+    }
+
+    .about-us {
+        grid-template-columns: 1fr;
+    }
+
+    .about-us__desc {
+        gap: 18px;
     }
 }
 
