@@ -427,10 +427,7 @@ html, body {
     background-color: #F9F9F9;;
 }
 
-.container {
-}
-
-.footer-row {
+.footer__row {
     display: grid;
     gap: 64px;
     grid-template-columns: repeat(3, auto);
@@ -464,8 +461,9 @@ html, body {
 
 
 .footer__nav {
-    display: grid;
+    display: flex;
     gap: 20px;
+    flex-direction: column;
     
 }
 
@@ -476,7 +474,6 @@ html, body {
 
 .footer__nav-list {
     display: grid;
-    gap: 20px;
 }
 
 
@@ -501,9 +498,11 @@ html, body {
     font-weight: 500;
 }
 
+
 .subscribe {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 72px;
+    gap: 16px;
 }
 
 .subscribe__input-wrapper {
