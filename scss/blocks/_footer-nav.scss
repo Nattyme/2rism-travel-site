@@ -1,0 +1,31 @@
+.footer__nav-wrapper {
+    display: flex;
+    gap: 64px;
+}
+
+
+.footer__nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+}
+
+.footer__nav-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__nav-list {
+    display: grid;
+}
+
+
+.footer__nav-link {
+    color: #585858;
+    font-size: 13px;
+
+    &:hover {
+        color: #7B61FF;
+    }
+}

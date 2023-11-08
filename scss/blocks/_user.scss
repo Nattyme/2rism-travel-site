@@ -1,0 +1,44 @@
+
+.user {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.user__content {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.user__name {
+    font-weight: 600;
+    color: $white;
+
+}
+
+.user__avatar {
+    position: relative;
+    height: 48px;
+    width: 48px;
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        height: 12px;
+        width: 12px;
+        content: "";
+        background-color: #F00;
+        border-radius: 50%;
+    }
+
+    &-img {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
