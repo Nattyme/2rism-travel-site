@@ -20,26 +20,6 @@
     background-repeat: no-repeat;
 }
 
-.form__input--location {
-    width: 300px;
-    background-image: url('./../img/icons/map.svg');   
-}
-
-.form__input--activity {
-    width: 255px;
-    background-image: url('./../img/icons/activity.svg');   
-}
-
-.form__input--date {
-    width: 255px;
-    background-image: url('./../img/icons/when.svg');   
-}
-
-.form__input--guests {
-    width: 255px;
-    background-image: url('./../img/icons/guests.svg');   
-}
-
 .form__label {
     font-size: 14px;
     font-weight: 300;
@@ -49,9 +29,32 @@
 .form__input {
     font-size: 16px;
     font-weight: 500;
-    color: #161414;
+    color: $text-color;
+
+    &::placeholder {
+        color: $black;
+    }
+
+    &--guests {
+        width: 255px;
+        background-image: url('./../img/icons/guests.svg');   
+    }
+    
+    &--location {
+        width: 300px;
+        background-image: url('./../img/icons/map.svg');   
+    }
+    
+    &--activity {
+        width: 255px;
+        background-image: url('./../img/icons/activity.svg');   
+    }
+    
+    &--date {
+        width: 255px;
+        background-image: url('./../img/icons/when.svg');   
+    }
+    
+
 }
 
-.form__input::placeholder {
-    color: $black;
-}

@@ -24,8 +24,9 @@
 .footer__nav-link {
     color: #585858;
     font-size: 13px;
+
+    &:hover {
+        color: $btn-bg;
+    }
 }
 
-.footer__nav-link:hover {
-    color: $btn-bg;
-}
