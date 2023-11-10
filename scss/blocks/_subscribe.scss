@@ -25,15 +25,15 @@
     
     width: 300px;
     height: 72px;
-    background-color: #fff;
+    background-color: $white;
     background-repeat: 12px;
     
     background-image: url('./../img/icons/email.svg');
     background-repeat: no-repeat;
     background-position: 18px 27px;
 
-    color: #161414;
-    font-family: 'Poppins', sans-serif;
+    color: $text-color;
+    font-family: $font-main;
     font-size: 16px;
     font-weight: 500;
 }
@@ -44,7 +44,7 @@
     left: 56px;
     font-size: 14px;
     font-weight: 300;
-    color: #5B5B5B;
+    color: $text-secondary;
     pointer-events: none;
     transition: all 0.2s ease-in;
 }

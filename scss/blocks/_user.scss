@@ -8,12 +8,12 @@
     font-size: 14px;
     line-height: 1.5;
     text-align: right;
-    color: rgb(255, 255, 255, 0.5);
+    color: $text-user;
 }
 
 .user__name {
     font-weight: 600;
-    color: #fff;
+    color: $white;
 
 }
 
@@ -31,7 +31,7 @@
     height: 12px;
     width: 12px;
     content: "";
-    background-color: #F00;
+    background-color: $avatar;
     border-radius: 50%;
 }
 

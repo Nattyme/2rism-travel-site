@@ -1,18 +1,17 @@
 html, body {
-    font-family: 'Poppins', sans-serif;
-    color: #161414;
+    font-family: $font-main;
+    color: $text-color;
 }
 
 .title-1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 1.5;
-    color: #161414;
+    color: $text-color;
 }
 
 
 // Grid 
-
 .container {
     margin: 0 auto;
     max-width: 1440px;
@@ -57,13 +56,6 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
     
 }
-
-
-
-
-
-
-
 
 .none {
     display: none;

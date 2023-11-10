@@ -26,11 +26,11 @@
 }
 
 .mobile-nav a {
-    color: #fff;
+    color: $white;
 }
 
 .mobile-nav a:hover, .mobile-nav a.active {
-    color: #7B61FF;
+    color: $btn-bg;
 }
 
 .mobile-nav__list {
@@ -79,7 +79,7 @@
 
 .mobile-nav__user--name {
     font-weight: 600;
-    color: #fff;
+    color: $white;
 
 }
 
@@ -97,7 +97,7 @@
     height: 12px;
     width: 12px;
     content: "";
-    background-color: #F00;
+    background-color: $user;
     border-radius: 50%;
 }
 

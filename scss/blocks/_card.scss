@@ -53,7 +53,7 @@
 }
 
 .card__title {
-    color: #161414;
+    color: $text-color;
     font-size: 16px;
     font-weight: 500;
 }
@@ -64,14 +64,14 @@
 
 .card__location {
     position: relative;
-    color: #979797;
+    color: $text-card-location;
     font-size: 13px;
     font-weight: 400;
     z-index: 1;
 }
 
 .card__location:hover {
-    color: #7B61FF;
+    color: $btn-bg;
 }
 
 .card__location--icon {
