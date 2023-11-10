@@ -1,0 +1,97 @@
+.card {
+    width: 100%;
+    position: relative;
+    transition: all 0.2s ease-in;
+    object-fit: cover;
+}
+
+.card__img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+
+.card__img--h100 {
+    height: 100%;
+}
+
+
+.card:hover {
+    top: -5px;
+    opacity: 0.8;
+}
+
+.card--wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+}
+
+
+.card__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.card__img--hotel {
+    margin-bottom: 8px;
+}
+
+.card__img--activities {
+    margin-bottom: 16px;
+}
+
+.card__img--no-margin {
+    margin: 0;
+}
+
+.card__title {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__title--hotel {
+    margin-right: 12px;
+}
+
+.card__location {
+    position: relative;
+    color: #979797;
+    font-size: 13px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.card__location:hover {
+    color: #7B61FF;
+}
+
+.card__location--icon {
+    padding-left: 20px;
+    background-image: url('./../img/icons/map-hotels.svg');
+    background-position: 0 1px; 
+    background-repeat: no-repeat;
+}
+
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+}
+
+
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
